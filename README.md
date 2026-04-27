@@ -2,6 +2,8 @@
 
 This repository contains a computational physics project implementing a **Monte Carlo simulation of the two-dimensional Ising model** using the **Metropolis algorithm**.
 
+The goal is to explore the emergence of **phase transitions** and the behavior of the system near the **critical temperature**, where the model exhibits **scale invariance** and universal behavior.
+
 ## Implementation Details
 
 The implementation is intentionally designed with a low-level approach: memory is manually managed using `malloc`, `realloc`, and `free`, and no high-level containers (such as `std::vector`) are used.
@@ -20,7 +22,6 @@ By avoiding high-level abstractions, students are encouraged to engage directly 
 
 As a result, the code may appear less idiomatic compared to modern C++ practices, where RAII and standard containers are preferred. However, this approach prioritizes conceptual clarity and foundational understanding over abstraction.
 
-The goal is to explore the emergence of **phase transitions** and the behavior of the system near the **critical temperature**, where the model exhibits **scale invariance** and universal behavior.
 
 ---
 
